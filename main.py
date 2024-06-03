@@ -116,7 +116,7 @@ class UserCreate(BaseModel):
 #########################
 
 # create instance of the app
-app = FastAPI(title="luchanos-oxford-university")
+app = FastAPI(title="university")
 
 user_router = APIRouter()
 
